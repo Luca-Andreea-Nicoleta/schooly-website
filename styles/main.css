@@ -183,9 +183,14 @@ nav .about-us:hover .submenu {
   }
   nav input[type="checkbox"]:checked ~ ul {
     display: block;
+
     width: 100%;
+
     position: fixed;
-    top: calc(var(--mobile-logo-height)+2 * var(--spacing-medium));
+
+    top: calc(var(--mobile-logo-height) + 2 * var(--spacing-medium));
+    left: 0;
+
     background-color: var(--bg-dark);
   }
 }
